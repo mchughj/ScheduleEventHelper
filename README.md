@@ -3,28 +3,30 @@
 
 This is a simple project which made it easy to create the teams for a 100+ person soccer event.
 
-1.  Install necessary prerequisites
-   - sudo apt install -y python3
-   - python3 -m pip install --user --upgrade pip
-   - python3 -m pip install --user virtualenv
-
-1.  Create a new virtual environment within the same directory as the git checkout.
+1. Install necessary prerequisites
+   ```
+   sudo apt install -y python3
+   python3 -m pip install --user --upgrade pip
+   python3 -m pip install --user virtualenv
+   ```
+1. Create a new virtual environment within the same directory as the git checkout.
    ```
    cd ScheduleEventHelper
    python3 -m virtualenv --python=python3 seh-env
    ```
-1.  Activate the new virtual environment
+1. Activate the new virtual environment
    ```
    source seh-env/bin/activate
    ```
-1.  Install, into the new virtual environment, the required python modules
+1. Install, into the new virtual environment, the required python modules for this specific environment.  This will be installed within the virtual env which was activated earlier.
    ```
    python3 -m pip install -r requirements.txt
    ```
-1.  Start Jupyter-lab
+1. Start Jupyter-lab
    ```
    jupyter-lab
    ```
+1. Navigate to the Jupyter notebook checked in here.
 
 # Rules
 
