@@ -49,9 +49,9 @@ level across all teams.
 I used the following algorithm.
 
 * For each player to assign to a team:
-* * Find all teams with the minimum number of players
-* * For each one of these pretend that we were to assign the new player
-* * Evaluate the overall min and max total skill level if we made this assignment
-* * Choose the best assignment that minimizes the distance between total skill of all teams.
+   * Find all teams with the minimum number of players
+   * For each one of these pretend that we were to assign the new player
+   * Evaluate the overall min and max total skill level if we made this assignment
+   * Choose the best assignment that minimizes the distance between total skill of all teams.
 
 This worked very well in practice.
